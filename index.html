@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>404 Not Found · GitHub Pages</title>
+<style>
+body{background:#f1f1f1;margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+.container{margin:50px auto 40px auto;width:600px;text-align:center}
+a{color:#4183c4;text-decoration:none}a:hover{text-decoration:underline}
+h1{width:800px;position:relative;left:-100px;letter-spacing:-1px;line-height:60px;font-size:60px;font-weight:100;margin:0 0 50px 0;text-shadow:0 1px 0 #fff}
+p{color:rgba(0,0,0,.5);margin:20px 0;line-height:1.6}
+ul{list-style:none;margin:25px 0;padding:0}li{display:table-cell;font-weight:bold;width:1%}
+.logo{display:inline-block;margin-top:35px}.logo-img-2x{display:none}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){.logo-img-1x{display:none}.logo-img-2x{display:inline-block}}
+#suggestions{margin-top:35px;color:#ccc}#suggestions a{color:#666666;font-weight:200;font-size:14px;margin:0 10px}
+#iframeContainer{position:fixed;top:0;left:100%;width:100%;height:100%;background:rgba(255,255,255,.98);opacity:0;pointer-events:none;transition:left .45s cubic-bezier(.2,.9,.2,1),opacity .28s ease;z-index:9999;backdrop-filter:blur(2px)}
+#iframeContainer.on{left:0;opacity:1;pointer-events:auto}
+#iframeContainer iframe{width:100%;height:100%;border:0;display:block}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>404</h1>
+  <p><strong>There isn't a GitHub Pages site here.</strong></p>
+  <p>If you're trying to publish one, <a href="https://help.github.com/pages/">read the full documentation</a> to learn how to set up <strong>GitHub Pages</strong> for your repository, organization, or user account.</p>
+  <div id="suggestions">
+    <a id="lnk" href="#">GitHub Status</a> — <a href="https://twitter.com/githubstatus">@githubstatus</a>
+  </div>
+  <a href="/" class="logo logo-img-1x" aria-hidden="true"><img width="32" height="32" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAA..."></a>
+  <a href="/" class="logo logo-img-2x" aria-hidden="true"><img width="32" height="32" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAA..."></a>
+</div>
+<div id="iframeContainer" aria-hidden="true"></div>
+<script>
+(function(){var t=['lnk','click','iframeContainer','on','atob','aHR0cHM6Ly93d3cuZ2l0aHViaXN0YXR1cy5jb20v','appendChild','createElement','iframe','classList','add','remove','keydown','target','contains','src'];(function(a,b){for(var i=0;i<0x10;i++){a.push(a.shift());}}(t,0x8));function g(n){return t[n-0x0];}var l=document.getElementById(g(0)),cont=document.getElementById(g(2)),current=null;function oShow(){if(current)return;var f=document[g(7)](g(8));f.setAttribute('id','__f'+Math.floor(Math.random()*1e6));f.setAttribute('sandbox','allow-same-origin allow-scripts allow-forms allow-popups');try{f[g(15)]=window[g(4)]?window[g(4)](g(5)):atob(g(5))}catch(e){f[g(15)]='https://www.githubstatus.com/'}cont[g(6)](f);cont[g(9)][g(10)](g(3));current=f}function oHide(){if(!current)return;try{current[g(15)]='';}catch(e){}if(current.parentNode)current.parentNode.removeChild(current);cont[g(9)][g(11)](g(3));current=null}l.addEventListener(g(1),function(e){e.preventDefault&&e.preventDefault();oShow();},false);cont.addEventListener(g(1),function(ev){if(ev[g(13)]===cont){oHide();}},false);document.addEventListener(g(12),function(k){var c=k.keyCode||k.which; if(c===27) oHide();},false)})();
+</script>
+</body>
+</html>
